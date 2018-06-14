@@ -6,4 +6,4 @@ image_resource:
   source: {repository: ubuntu}
 
 run:
-  path: ls
+  path: env
