@@ -6,5 +6,4 @@ image_resource:
   source: {repository: ubuntu}
 
 run:
-  path: echo
-  args: ["Test12312312"]
+  path: ls
