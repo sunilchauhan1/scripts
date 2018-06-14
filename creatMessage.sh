@@ -1,4 +1,10 @@
-#!/bin/sh
-value=$RANDOM
-line=$(head -n 1 /meta/atc-external-url)
-echo $line
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: {repository: ubuntu}
+
+run:
+  path: echo
+  args: ["Test12312312"]
