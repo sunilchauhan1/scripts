@@ -8,4 +8,4 @@ inputs:
   - name: meta
       
 run:
-  path: env
+  path: ls
